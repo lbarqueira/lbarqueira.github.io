@@ -46,6 +46,9 @@ defaults:
 # excerpts:
 show_excerpts: true
 
+# Google-analytics:
+google_analytics: UA-162178711-1
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
