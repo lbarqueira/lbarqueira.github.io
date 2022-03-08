@@ -1,7 +1,7 @@
 ---
 layout: tagpage
-title: "Tag: first_tag"
-tag: first_tag
+title: "Tag: First_Post"
+tag: First_Post
 robots: noindex
 exclude: true
 ---
