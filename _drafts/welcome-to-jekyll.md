@@ -3,7 +3,6 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2022-03-04 16:31:23 +0000
 categories: jekyll
-tags: classic introduction
 permalink: /:categories/:year/:month/:day/:title.html
 excerpt_separator: <!--more-->
 ---
