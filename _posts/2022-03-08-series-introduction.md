@@ -7,7 +7,7 @@ permalink: /:year/:month/:day/:title.html
 excerpt_separator: <!--more-->
 ---
 
-![My Series Introduction](/assets/kimberly-farmer-lUaaKCUANVI-unsplash.jpg)
+![My Series Introduction](/assets/images/kimberly-farmer-lUaaKCUANVI-unsplash.jpg)
 
 Soon, I will begin a new series on `Leadership & Management (L&M)`. This series aims to introduce some real-life scenarios which you may face in your professional life. Probably you have already faced them.
 <!--more-->

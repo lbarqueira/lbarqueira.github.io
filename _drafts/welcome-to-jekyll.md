@@ -7,8 +7,6 @@ permalink: /:categories/:year/:month/:day/:title.html
 excerpt_separator: <!--more-->
 ---
 
-![My screenshot](/assets/screenshot_1.png)
-
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Another paragraph of the post to show excerts.
