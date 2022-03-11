@@ -33,9 +33,11 @@ github_username:  lbarqueira
 # rss: rss
 
 # Build settings
-theme: minima
+# Removed minima theme as it is now a regular theme
+# theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Front matter defaults
 defaults:

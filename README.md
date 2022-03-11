@@ -32,3 +32,7 @@
 Note: UA (Universal Analytics) was configured instead of G-    see [Configure o Analytics para um Website (Universal Analytics)](https://support.google.com/analytics/answer/10269537?ref_topic=1009620)
 
 #### [A Beginner's Guide to SEO optimization in a Jekyll static website](https://jsinibardy.com/optimize-seo-jekyll#install-jekyll-seo-tag)
+
+### Change to a regular theme instead of a Gem-based theme
+
+[Up and Running with GitHub Pages, Part 4, Jekyll Themes]()
