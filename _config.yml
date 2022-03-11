@@ -22,9 +22,8 @@ title: LB Blog
 # email: luis.barqueira@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   To analyze Real-life Leadership & Management scenarios.
-  My learning path about Software Development, namely,
-  Android, Kotlin, Python, C, and others. Feel free to DM me your comments 
-  or questions on Twitter.  
+  My learning path and projects on Software Development, namely,
+  Android, Kotlin, Python, and C.  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lbarqueira.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: barqueira
@@ -73,3 +72,10 @@ google_analytics: UA-162178711-1
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+social:
+  name: Luis Barqueira
+  links:
+    - https://twitter.com/barqueira
+    - https://www.linkedin.com/in/luis-barqueira-7369092/
+    - https://github.com/lbarqueira
