@@ -34,7 +34,7 @@ Note: UA (Universal Analytics) was configured instead of G-    see [Configure o 
 
 #### [Adding a favicon to a Jekyll-based static website](https://ptc-it.de/add-favicon-to-mm-jekyll-site/)
 
-- create the favicons, [Favicon Generator](https://realfavicongenerator.net/)
+- create the favicons and __check__, [Favicon Generator](https://realfavicongenerator.net/)
 
 
 ### Change to a regular theme instead of a Gem-based theme
