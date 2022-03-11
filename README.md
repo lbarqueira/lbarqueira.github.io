@@ -4,9 +4,9 @@
 
 ### Dev:
 
-- favicon
-- google analytics
-- SEO
+- favicon - TO BE DONE!
+- google analytics - DONE!
+- SEO - DONE!
 
 ### Write a series on Leadership & Management
 
@@ -35,4 +35,4 @@ Note: UA (Universal Analytics) was configured instead of G-    see [Configure o 
 
 ### Change to a regular theme instead of a Gem-based theme
 
-[Up and Running with GitHub Pages, Part 4, Jekyll Themes]()
+[Up and Running with GitHub Pages, Part 4, Jekyll Themes](https://www.youtube.com/watch?v=8IgNO1HgCrk)
