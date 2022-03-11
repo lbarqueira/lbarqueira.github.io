@@ -31,6 +31,12 @@
 
 Note: UA (Universal Analytics) was configured instead of G-    see [Configure o Analytics para um Website (Universal Analytics)](https://support.google.com/analytics/answer/10269537?ref_topic=1009620)
 
+
+#### [Adding a favicon to a Jekyll-based static website](https://ptc-it.de/add-favicon-to-mm-jekyll-site/)
+
+- create the favicons, [Favicon Generator](https://realfavicongenerator.net/)
+
+
 ### Change to a regular theme instead of a Gem-based theme
 
 With this change I now have all the freedom to make changes to my blog.   
