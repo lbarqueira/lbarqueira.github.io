@@ -13,12 +13,12 @@ const CACHE_STATIC = [
 
 //rotas das paginas do site
 const CACHE_APP = [
-    '/',
+    "/",
     '/404.html',
     '/about/',
     '/tags-menu/',
-    '/2022/',
-    '/tag/',
+    '/2022/03/08/series-introduction.html',
+    '/tag/L&M'
 ];
 
 self.addEventListener('install', function (e) {

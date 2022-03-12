@@ -21,5 +21,7 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "display": "standalone"
+    "display": "standalone",
+    "start_url": "/",
+    "description": "To analyze Real-life Leadership & Management scenarios. My learning path and projects on Software Development, namely, Android, Kotlin, Python, and C."
 }
