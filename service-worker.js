@@ -9,16 +9,20 @@ const CACHE_STATIC = [
     '/assets/images/android-chrome-384x384.png',
     '/assets/images/apple-touch-icon.png',
     '/assets/images/kimberly-farmer-lUaaKCUANVI-unsplash.jpg',
+    '/assets/images/favicon-16x16.png',
+    '/assets/images/favicon-32x32.png',
+    '/assets/images/logo_blog_crop_512x512.png'
 ];
 
 // routes of pages site to cache
 const CACHE_APP = [
     "/",
-    '/404.html',
-    '/about/',
-    '/tags-menu/',
-    '/2022/03/08/series-introduction.html',
-    '/tag/L&M'
+    "/404.html",
+    "/about/",
+    "/tags-menu/",
+    "/2022/03/08/series-introduction.html",
+    "/tag/L&M",
+    "/tag/Who-am-i"
 ];
 
 self.addEventListener('install', function (e) {
