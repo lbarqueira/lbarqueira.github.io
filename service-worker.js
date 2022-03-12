@@ -11,14 +11,14 @@ const CACHE_STATIC = [
     '/assets/images/kimberly-farmer-lUaaKCUANVI-unsplash.jpg',
 ];
 
-//rotas das paginas do site em cache
+// routes of pages site to cache
 const CACHE_APP = [
     "/",
     '/404.html',
     '/about/',
     '/tags-menu/',
-    '/2022/03/08/series-introduction.html',
-    '/tag/L&M'
+    '/2022/',
+    '/tag/'
 ];
 
 self.addEventListener('install', function (e) {
