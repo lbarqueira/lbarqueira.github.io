@@ -7,7 +7,7 @@
 - favicon - DONE!
 - google analytics - DONE!
 - SEO - DONE!
-- turn into a PWA - TO BE DONE!
+- turn into a PWA - DONE! - TO BE IMPROVED IN FUTURE WITH WORKBOX
 
 
 ### Write a series on Leadership & Management
@@ -46,13 +46,15 @@ I used https://looka.com/ for LOGO design.
 - see https://github.com/jekyll/jekyll-seo-tag
 
 ### Turn website into PWA
-Working without [Workbox](https://developers.google.com/web/tools/workbox) ... In this approach I have specifically say what are the routes that I want to cache for offline.
+Working without [Workbox](https://developers.google.com/web/tools/workbox) ... In this approach I have specifically to say what are the routes that I want to cache for offline.
 
 [Como transformar um site no github pages feito com jekyll em uma pwa](https://regino.dev/como-transformar-um-site-no-github-pages-feito-com-jekyll-em-uma-pwa/)
 
 TODO: Another tutorial, but using [Workbox](https://developers.google.com/web/tools/workbox)
 
 [Jekyll website to progressive web app](https://svrooij.io/2022/01/29/jekyll-pwa/)
+
+Note: For now if you Lighthouse audit the site, PWA is checked.
 
 
 ### Change to a regular theme instead of a Gem-based theme
