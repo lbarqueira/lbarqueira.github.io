@@ -1,7 +1,7 @@
 const VERSION = "1.0.0";
 
-const APP_CACHE_NAME = 'felipe-regino-app';
-const STATIC_CACHE_NAME = 'felipe-regino-static';
+const APP_CACHE_NAME = 'lb-blog-app';
+const STATIC_CACHE_NAME = 'lb-blog-static';
 
 //rotas dos arquivos estáticos
 const CACHE_STATIC = [
