@@ -31,6 +31,8 @@ github_username:  lbarqueira
 # linkedin_username: luis-barqueira-7369092
 # rss: rss
 
+author: Luis Barqueira
+
 # Build settings
 # Removed minima theme as it is now a regular theme
 # theme: minima

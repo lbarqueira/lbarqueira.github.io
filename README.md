@@ -4,9 +4,11 @@
 
 ### Dev:
 
-- favicon - TO BE DONE!
+- favicon - DONE!
 - google analytics - DONE!
 - SEO - DONE!
+- turn into a PWA - TO BE DONE!
+
 
 ### Write a series on Leadership & Management
 
@@ -39,7 +41,9 @@ Note: UA (Universal Analytics) was configured instead of G-    see [Configure o 
 I used https://looka.com/ for LOGO design.
 
 
-#### SEO - 
+#### SEO 
+
+- see https://github.com/jekyll/jekyll-seo-tag
 
 
 ### Change to a regular theme instead of a Gem-based theme
