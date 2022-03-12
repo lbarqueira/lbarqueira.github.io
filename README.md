@@ -36,6 +36,11 @@ Note: UA (Universal Analytics) was configured instead of G-    see [Configure o 
 
 - create the favicons and __check__, [Favicon Generator](https://realfavicongenerator.net/)
 
+I used https://looka.com/ for LOGO design.
+
+
+#### SEO - 
+
 
 ### Change to a regular theme instead of a Gem-based theme
 
