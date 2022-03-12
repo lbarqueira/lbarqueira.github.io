@@ -45,14 +45,15 @@ I used https://looka.com/ for LOGO design.
 
 - see https://github.com/jekyll/jekyll-seo-tag
 
-### Turn into PWA
-FIXME: Not working for now
+### Turn website into PWA
+Working without [Workbox](https://developers.google.com/web/tools/workbox) ... In this approach I have specifically say what are the routes that I want to cache for offline.
 
 [Como transformar um site no github pages feito com jekyll em uma pwa](https://regino.dev/como-transformar-um-site-no-github-pages-feito-com-jekyll-em-uma-pwa/)
 
-other tutorial ....
+TODO: Another tutorial, but using [Workbox](https://developers.google.com/web/tools/workbox)
 
-[Adding a service worker to Jekyll](https://tosbourn.com/adding-service-worker-to-jekyll/)
+[Jekyll website to progressive web app](https://svrooij.io/2022/01/29/jekyll-pwa/)
+
 
 ### Change to a regular theme instead of a Gem-based theme
 

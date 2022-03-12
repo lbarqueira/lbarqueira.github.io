@@ -11,7 +11,7 @@ const CACHE_STATIC = [
     '/assets/images/kimberly-farmer-lUaaKCUANVI-unsplash.jpg',
 ];
 
-//rotas das paginas do site
+//rotas das paginas do site em cache
 const CACHE_APP = [
     "/",
     '/404.html',
