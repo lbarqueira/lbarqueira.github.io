@@ -45,6 +45,14 @@ I used https://looka.com/ for LOGO design.
 
 - see https://github.com/jekyll/jekyll-seo-tag
 
+### Turn into PWA
+FIXME: Not working for now
+
+[Como transformar um site no github pages feito com jekyll em uma pwa](https://regino.dev/como-transformar-um-site-no-github-pages-feito-com-jekyll-em-uma-pwa/)
+
+other tutorial ....
+
+[Adding a service worker to Jekyll](https://tosbourn.com/adding-service-worker-to-jekyll/)
 
 ### Change to a regular theme instead of a Gem-based theme
 

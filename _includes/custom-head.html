@@ -1,12 +1,12 @@
 {% comment %}
-  Placeholder to allow defining custom head, in principle, you can add anything here, e.g. favicons:
+Placeholder to allow defining custom head, in principle, you can add anything here, e.g. favicons:
 
-  1. Head over to https://realfavicongenerator.net/ to add your own favicons.
-  2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
+1. Head over to https://realfavicongenerator.net/ to add your own favicons.
+2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
 {% endcomment %}
 
 {% if site.tags == "" %}
- {% include collecttags.html %}
+{% include collecttags.html %}
 {% endif %}
 
 <link rel="manifest" href="/site.webmanifest">
@@ -19,12 +19,17 @@
 <meta name="msapplication-config" content="/assets/images/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
 
-<script type="text/javascript">
-	if ("serviceWorker" in navigator) {
-		navigator.serviceWorker.register("/service-worker.js").then(function(registration) {
-			console.log("Service Worker registration successful with scope: ", registration.scope);
-		}).catch(function(err) {
-			console.log("Service Worker registration failed: ", err);
-		});
-	}
-</script>
+{% if jekyll.environment != "development" %}
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("/service-worker.js")
+          .then(function(registration) {
+            console.log("Success: " + registration.scope);
+          })
+          .catch(function(err) {
+            console.log("Error: " + err);
+          });
+      }
+    </script>
+{% endif %}
