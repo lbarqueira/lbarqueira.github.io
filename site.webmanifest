@@ -11,7 +11,13 @@
             "src": "/assets/images/android-chrome-384x384.png",
             "sizes": "384x384",
             "type": "image/png"
+        },
+        {
+            "src": "/assets/images/logo_blog_crop_512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
         }
+
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
