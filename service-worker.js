@@ -1,4 +1,4 @@
-const VERSION = "1.0.0";
+const VERSION = "1.0.1";
 
 const APP_CACHE_NAME = 'lb-blog-app';
 const STATIC_CACHE_NAME = 'lb-blog-static';
