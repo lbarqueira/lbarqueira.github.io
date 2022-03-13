@@ -22,7 +22,8 @@ const CACHE_APP = [
     "/tags-menu/",
     "/2022/03/08/series-introduction.html",
     "/tag/L&M",
-    "/tag/Who-am-i"
+    "/tag/Who-am-i",
+    '/offline/'
 ];
 
 self.addEventListener('install', function (e) {
@@ -59,7 +60,7 @@ self.addEventListener('activate', function (e) {
     );
 });
 
-this.addEventListener('fetch', function (event) {
+/* this.addEventListener('fetch', function (event) {
     var response;
     event.respondWith(caches.match(event.request)
         .then(function (match) {
@@ -74,5 +75,31 @@ this.addEventListener('fetch', function (event) {
             });
             return response.clone();
         })
+    );
+}); */
+
+self.addEventListener('fetch', event => {
+    let request = event.request;
+
+    event.respondWith(
+        caches.match(request)
+            .then(response => {
+                return response || fetch(request)
+                    .then(response => {
+                        // NETWORK
+                        if (response && response.ok) {
+                            let copy = response.clone();
+                            caches.open(APP_CACHE_NAME)
+                                .then(cache => cache.put(request, copy));
+                        }
+                        return response;
+                    })
+                    .catch(error => {
+                        // OFFLINE
+                        if (request.mode == 'navigate') {
+                            return caches.match('/offline/');
+                        }
+                    });
+            })
     );
 });

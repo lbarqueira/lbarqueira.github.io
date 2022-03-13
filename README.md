@@ -44,6 +44,8 @@ Working without [Workbox](https://developers.google.com/web/tools/workbox) ... I
 
 [Como transformar um site no github pages feito com jekyll em uma pwa](https://regino.dev/como-transformar-um-site-no-github-pages-feito-com-jekyll-em-uma-pwa/)
 
+[Adding a service worker to Jekyll](https://tosbourn.com/adding-service-worker-to-jekyll/)
+
 Manually managing the cache storage via your Service Worker script can be a tedious task. The number of files and their names may change, so hard-coding them does not seem like a good idea. That’s where Workbox comes in.
 
 TODO: Another tutorial, but using [Workbox](https://developers.google.com/web/tools/workbox)
