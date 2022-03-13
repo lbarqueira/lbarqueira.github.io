@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Offline
+title: offline
 description: It looks like you do not have internet access; please try again soon. Some of our pages will continue to work.
 exclude: true
 ---
