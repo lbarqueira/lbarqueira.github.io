@@ -1,105 +1,70 @@
-const VERSION = "1.0.1";
+'use strict';
 
-const APP_CACHE_NAME = 'lb-blog-app';
-const STATIC_CACHE_NAME = 'lb-blog-static';
+const offlineCache = 'offline-2022-03-13'; // The cache key, you can override this to manually clear the cache
+const offlinePage = '/offline/'; // Where your offline page lives
+const homePage = '/'; // A key page you want cached
+const about = '/about/'; // Another key page to cache
 
-//rotas dos arquivos estáticos
-const CACHE_STATIC = [
-    '/assets/images/android-chrome-192x192.png',
-    '/assets/images/android-chrome-384x384.png',
-    '/assets/images/apple-touch-icon.png',
-    '/assets/images/kimberly-farmer-lUaaKCUANVI-unsplash.jpg',
-    '/assets/images/favicon-16x16.png',
-    '/assets/images/favicon-32x32.png',
-    '/assets/images/logo_blog_crop_512x512.png'
-];
-
-// routes of pages site to cache
-const CACHE_APP = [
-    "/",
-    "/404.html",
-    "/about/",
-    "/tags-menu/",
-    "/2022/03/08/series-introduction.html",
-    "/tag/L&M",
-    "/tag/Who-am-i",
-    '/offline/'
-];
-
-self.addEventListener('install', function (e) {
-    e.waitUntil(
-        Promise.all([
-            caches.open(STATIC_CACHE_NAME),
-            caches.open(APP_CACHE_NAME),
-            self.skipWaiting()
-        ]).then(function (storage) {
-            var static_cache = storage[0];
-            var app_cache = storage[1];
-            return Promise.all([
-                static_cache.addAll(CACHE_STATIC),
-                app_cache.addAll(CACHE_APP)]);
-        })
+// Delete caches that do not match the current version of the service worker.
+function clearOldCaches() {
+  return caches.keys().then(keys => {
+    return Promise.all(
+      keys
+        .filter(key => key.indexOf(offlineCache) !== 0)
+        .map(key => caches.delete(key))
     );
+  });
+}
+
+// Precache specific pages
+function cacheOfflinePage() {
+  return caches.open(offlineCache)
+    .then(cache => {
+      return cache.addAll([offlinePage, homePage, about]);
+    })
+    .catch(error => {})
+}
+
+// Install the service worker
+ self.addEventListener('install', event => {
+  event.waitUntil(
+    cacheOfflinePage()
+    .then( () => self.skipWaiting() )
+  );
 });
 
-self.addEventListener('activate', function (e) {
-    e.waitUntil(
-        Promise.all([
-            self.clients.claim(),
-            caches.keys().then(function (cacheNames) {
-                return Promise.all(
-                    cacheNames.map(function (cacheName) {
-                        if (cacheName !== APP_CACHE_NAME && cacheName !== STATIC_CACHE_NAME) {
-                            console.log('deleting', cacheName);
-                            return caches.delete(cacheName);
-                        }
-                    })
-                );
-            })
-        ])
-    );
+// Activate the service worker
+self.addEventListener('activate', event => {
+  event.waitUntil(
+    clearOldCaches()
+      .then(() => self.clients.claim())
+  );
 });
 
-/* this.addEventListener('fetch', function (event) {
-    var response;
-    event.respondWith(caches.match(event.request)
-        .then(function (match) {
-            return match || fetch(event.request);
-        }).catch(function () {
-            return fetch(event.request);
-        })
-        .then(function (r) {
-            response = r;
-            caches.open(APP_CACHE_NAME).then(function (cache) {
-                cache.put(event.request, response);
-            });
-            return response.clone();
-        })
-    );
-}); */
+// Try and serve up cached page, or else show networked page, or else show offline page
 
 self.addEventListener('fetch', event => {
-    let request = event.request;
+  let request = event.request;
 
-    event.respondWith(
-        caches.match(request)
-            .then(response => {
-                return response || fetch(request)
-                    .then(response => {
-                        // NETWORK
-                        if (response && response.ok) {
-                            let copy = response.clone();
-                            caches.open(APP_CACHE_NAME)
-                                .then(cache => cache.put(request, copy));
-                        }
-                        return response;
-                    })
-                    .catch(error => {
-                        // OFFLINE
-                        if (request.mode == 'navigate') {
-                            return caches.match('/offline/');
-                        }
-                    });
-            })
-    );
+  event.respondWith(
+    caches.match(request)
+      .then(response => {
+      return response || fetch(request)
+        .then( response => {
+          // NETWORK
+          if (response && response.ok) {
+            let copy = response.clone();
+            caches.open(offlineCache)
+              .then( cache => cache.put(request, copy) );
+          }
+            return response;
+        })
+      .catch( error => {
+        // OFFLINE
+        if (request.mode == 'navigate') {
+          return caches.match(offlinePage);
+        } 
+      });
+    })
+  );
 });
