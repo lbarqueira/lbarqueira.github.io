@@ -1,5 +1,7 @@
 'use strict';
 
+// based on https://regino.dev/como-transformar-um-site-no-github-pages-feito-com-jekyll-em-uma-pwa/
+
 const VERSION = "1.0.1";
 
 const APP_CACHE_NAME = 'lb-blog-app';

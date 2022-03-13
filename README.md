@@ -42,11 +42,11 @@ I used https://looka.com/ for LOGO design.
 ### Turn website into PWA
 Working without [Workbox](https://developers.google.com/web/tools/workbox) ... In this approach I have specifically to say what are the routes that I want to cache for offline support.
 
+"service-worker_reference.txt" - for reference:
 [Como transformar um site no github pages feito com jekyll em uma pwa](https://regino.dev/como-transformar-um-site-no-github-pages-feito-com-jekyll-em-uma-pwa/)
 
+"service-worker.js" - active for now, with offline page:
 [Adding a service worker to Jekyll](https://tosbourn.com/adding-service-worker-to-jekyll/)
-
-- to analyze: F12 to open Dev Tools, the service-worker.js does not change after I have changed it in githuh??
 
 Manually managing the cache storage via your Service Worker script can be a tedious task. The number of files and their names may change, so hard-coding them does not seem like a good idea. That’s where Workbox comes in.
 
