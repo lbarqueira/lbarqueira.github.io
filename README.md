@@ -1,18 +1,11 @@
 # my-blog
 
-## Work to be done
-
-### Dev:
+### Features:
 
 - favicon - DONE!
 - google analytics - DONE!
 - SEO - DONE!
 - turn into a PWA - DONE! - TO BE IMPROVED IN FUTURE WITH WORKBOX
-
-
-### Write a series on Leadership & Management
-
-### Posts about Software development
 
 
 ## Acknowledgements:
@@ -45,16 +38,21 @@ I used https://looka.com/ for LOGO design.
 
 - see https://github.com/jekyll/jekyll-seo-tag
 
+
 ### Turn website into PWA
-Working without [Workbox](https://developers.google.com/web/tools/workbox) ... In this approach I have specifically to say what are the routes that I want to cache for offline.
+Working without [Workbox](https://developers.google.com/web/tools/workbox) ... In this approach I have specifically to say what are the routes that I want to cache for offline support.
 
 [Como transformar um site no github pages feito com jekyll em uma pwa](https://regino.dev/como-transformar-um-site-no-github-pages-feito-com-jekyll-em-uma-pwa/)
+
+Manually managing the cache storage via your Service Worker script can be a tedious task. The number of files and their names may change, so hard-coding them does not seem like a good idea. That’s where Workbox comes in.
 
 TODO: Another tutorial, but using [Workbox](https://developers.google.com/web/tools/workbox)
 
 [Jekyll website to progressive web app](https://svrooij.io/2022/01/29/jekyll-pwa/)
 
 Note: For now if you Lighthouse audit the site, PWA is checked.
+
+Important site to know more about PWA and ServiceWorker cache: PWAdvent.dev https://pwadvent.dev/day/5/
 
 
 ### Change to a regular theme instead of a Gem-based theme
