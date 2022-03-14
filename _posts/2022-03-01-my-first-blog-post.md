@@ -6,18 +6,16 @@ excerpt_separator: <!--more-->
 
 My name is Luis Barqueira. I have more than 20 years of professional experience in Sales at companies, like Dell EMC and Siemens. At least 10 years in the management and leadership of sales teams.
 
-Currently, I have been fulfilling a dream, which is software development. Having a MSc in Electrical and Computer Engineering, I have always been passionate about software development.
-
 <!--more-->
 
-The main purpose of this blog is:
+For various reasons, I ended up not developing my professional career where I would actually be more interested, more specifically in Software Development. Fortunately, for 2 years I have been achieving this goal of mine. Having a MSc in Electrical and Computer Engineering, I have always been passionate about software development.
 
-- with regard to `Leadership and Management`, to share some practical scenarios that I faced during my professional experience, in order to analyze them;
+The main purpose of this blog is to share my own experience on those two fields, `Leadership & Management` and `Software Development`:
 
-- regarding `Software Development`, to share my learning path, and the projects that I have been making.
+- with regard to `Leadership & Management`, to share some practical scenarios that I faced during my professional experience, in order to analyze them;
+
+- regarding `Software Development`, to share my learning path, and the projects that I have been doing.
 
 I would like to have your feedback along this journey, so feel free to DM me on Twitter with your opinions, questions and comments.
 
 See you soon!
-
-___Note: Some posts will be written in my native language, ie Portuguese. However, I will always be careful to translate to English.___ 

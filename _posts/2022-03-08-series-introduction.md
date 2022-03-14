@@ -18,6 +18,6 @@ Scenarios like:
 - When do you start to feel that your CEO might not be right for the job;
 - Be alert to toxic workplace culture signs.  
 
-These were just a few topics that we will address during this series. I hope you will find it interesting to follow along.
+These are just a few subjects that we will address during this series. I hope you will find it interesting to follow along.
 
 See you soon!    
