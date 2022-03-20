@@ -31,6 +31,6 @@ __On February 24, Putin launched a military invasion of Ukraine.__
 
 Given the circumstances, I feel __I shouldn't share this certificate__, because the school organizer is a Russian University, and I don't see so far any statement from this organization condemning Russia’s invasion of Ukraine.
 
-In the school Slack group a Russian student apologies for its country...
+In the school Slack group, a Russian student apologizes for his country...
 
 __I believe the Russian people are not the Russian regime__, and Russian students will be the bright future of Russia.
