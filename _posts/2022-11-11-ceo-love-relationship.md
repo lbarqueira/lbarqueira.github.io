@@ -7,9 +7,11 @@ permalink: /:year/:month/:day/:title.html
 excerpt_separator: <!--more-->
 ---
 
-![Love relationship between CEO and an employee](/assets/images/love-heart-hands.jpg){:height="50%" width="50%"}
+![Love relationship between CEO and an employee](/assets/images/love-heart-hands.jpg){:height="90%" width="90%"}
 
-I would say things can go very wrong, specially for the company.
+I would say things will go wrong, especially for the company. Let`s deep dive ...
 <!--more-->
 
-Workplace love relationships are ...
+Love relationships at work always exist. Just realize that the vast majority of our time is spent at work.
+
+
