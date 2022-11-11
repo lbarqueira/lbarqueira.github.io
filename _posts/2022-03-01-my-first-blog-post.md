@@ -8,7 +8,7 @@ My name is Luis Barqueira. I have more than 20 years of professional experience 
 
 <!--more-->
 
-For various reasons, I ended up not developing my professional career where I would actually be more interested, more specifically in Software Development. Fortunately, for 2 years I have been achieving this goal of mine. Having a MSc in Electrical and Computer Engineering, I have always been passionate about software development.
+For various reasons, I ended up not developing my professional career where I would actually be more interested, more specifically in Software Development. Fortunately, since 2019, I have been achieving this goal of mine. Having a MSc in Electrical and Computer Engineering, I have always been passionate about software development.
 
 The main purpose of this blog is to share my own experience on those two fields, `Leadership & Management` and `Software Development`:
 
