@@ -7,12 +7,9 @@ permalink: /:year/:month/:day/:title.html
 excerpt_separator: <!--more-->
 ---
 
-![Love relationship between CEO and an employee](/assets/images/love-heart-hands.jpg)
+![Love relationship between CEO and an employee](/assets/images/love-heart-hands.jpg){:height="50%" width="50%"}
 
-I would say things can go very wrong, especially for the company.
+I would say things can go very wrong, specially for the company.
 <!--more-->
 
 Workplace love relationships are ...
-
-
-
