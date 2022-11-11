@@ -7,7 +7,7 @@ permalink: /:year/:month/:day/:title.html
 excerpt_separator: <!--more-->
 ---
 
-![Love relationship between CEO and an employee](/assets/images/love-heart-hands.jpg){:height="90%" width="90%"}
+![Love relationship between CEO and an employee](/assets/images/love-heart-hands.jpg){:style="display:block; margin-left:auto; margin-right:auto" :height="90%" width="90%"}
 
 I would say things will go wrong, especially for the company. Let`s deep dive ...
 <!--more-->
