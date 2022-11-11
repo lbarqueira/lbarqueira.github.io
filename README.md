@@ -66,5 +66,3 @@ With this change I now have all the freedom to make changes to my blog.
 [Up and Running with GitHub Pages, Part 4, Jekyll Themes](https://www.youtube.com/watch?v=8IgNO1HgCrk)
 
 Important command for copying files from minima gem: ```xdg-open $(bundle info --path minima)```  
-
-Last update: 11/11/2022
