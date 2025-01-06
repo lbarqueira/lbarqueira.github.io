@@ -65,4 +65,47 @@ With this change I now have all the freedom to make changes to my blog.
 
 [Up and Running with GitHub Pages, Part 4, Jekyll Themes](https://www.youtube.com/watch?v=8IgNO1HgCrk)
 
-Important command for copying files from minima gem: ```xdg-open $(bundle info --path minima)```  
+Important command for copying files from minima gem: ```xdg-open $(bundle info --path minima)``` 
+
+### _After 1 year without updating my blog, what did I do?_
+
+It is important to note that in the meantime I changed computers with new operating system fedora.  
+
+I followed the site [Web Application](https://developer.fedoraproject.org/start/sw/web-app/jekyll.html).
+
+##### Installation (because it is a new laptop)
+
+```
+$ sudo dnf install ruby-devel
+$ gem install jekyll
+```
+
+##### Usage (with my blog previously created)
+
+```
+$ jekyll new my-site // not needed since previously created
+$ cd myblog // Alternativelly you can open vscode project myblog
+$ jekyll serve // Alternativelly you can run this code on vscode terminal
+```
+
+After writing a post (copy past from a previous one) never forget to run the following script of code for the __tags__:
+
+```
+python tag_generator.py
+```
+
+Then, since the blog is a PWA, I have to edit the file __service-worker.js__, namelly:
+    
+```
+const offlineCache = 'offline-2025-01-06-5-50'; // The cache key, you can override this to manually clear the cache
+```
+
+Now, I have to [Manual Deploy](https://jekyllrb.com/docs/deployment/manual/). The blog is hosted in __GitHub Pages__ then I have to run the following command in terminal:
+
+```
+jekyll build
+```
+
+Now, I am able to commit and push to github (using vscode), then I wait a little to see it on-line at:
+
+[LB Blog](https://lbarqueira.github.io/)
