@@ -2,7 +2,7 @@
 
 // https://tosbourn.com/adding-service-worker-to-jekyll/
 
-const offlineCache = 'offline-2023-12-23'; // The cache key, you can override this to manually clear the cache
+const offlineCache = 'offline-2025-01-05'; // The cache key, you can override this to manually clear the cache
 const offlinePage = '/offline/'; // Where your offline page lives
 const homePage = '/'; // A key page you want cached
 const about = '/about/'; // Another key page to cache
