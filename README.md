@@ -67,7 +67,7 @@ With this change I now have all the freedom to make changes to my blog.
 
 Important command for copying files from minima gem: ```xdg-open $(bundle info --path minima)``` 
 
-### _After 1 year without updating my blog, what did I do?_
+## _After 1 year without updating my blog, what did I do?_
 
 It is important to note that in the meantime I changed computers with new operating system fedora.  
 
@@ -109,3 +109,15 @@ jekyll build
 Now, I am able to commit and push to github (using vscode), then I wait a little to see it on-line at:
 
 [LB Blog](https://lbarqueira.github.io/)
+
+
+### VERY IMPORTANT !!!
+
+[Command Line Usage](https://jekyllrb.com/docs/usage/)
+
+One command example in terminal:
+
+```
+[barqueira@fedora myblog]$ jekyll doctor
+```
+Your test results are in. Everything looks fine.
