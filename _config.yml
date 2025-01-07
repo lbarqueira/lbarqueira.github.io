@@ -21,12 +21,13 @@
 title: LB Blog
 # email: luis.barqueira@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  To analyze Real-life Leadership & Management scenarios.
-  My learning path and projects on Software Development, and Data Visualization.  
+  Real-life Leadership & Management scenarios.
+  Software Development, Data Visualization and Creative Coding.  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lbarqueira.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: barqueira
+# twitter_username: barqueira
 github_username:  lbarqueira
+bluesky_username: lbarqueira.bsky.social
 # linkedin_username: luis-barqueira-7369092
 # rss: rss
 
@@ -80,3 +81,4 @@ social:
     - https://twitter.com/barqueira
     - https://www.linkedin.com/in/luis-barqueira-7369092/
     - https://github.com/lbarqueira
+    - https://bsky.app/profile/lbarqueira.bsky.social

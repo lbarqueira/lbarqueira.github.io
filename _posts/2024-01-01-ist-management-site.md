@@ -7,7 +7,7 @@ permalink: /:year/:month/:day/:title.html
 excerpt_separator: <!--more-->
 ---
 
-![Introduction to Management in Portuguese Language](/assets/images/ist-management-site.png){:height="80%" width="80%"}
+![Introduction to Management in Portuguese Language](/assets/images/ist-management-site.png){:height="100%" width="100%"}
 
 In 2022, I created a [website](https://tourmaline-klepon-15f45d.netlify.app/) (written in 🇵🇹Portuguese) whose purpose is to present an elementary introduction to management, more specifically, on the following topics:
 - Financial Information;

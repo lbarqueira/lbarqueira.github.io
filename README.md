@@ -110,6 +110,12 @@ Now, I am able to commit and push to github (using vscode), then I wait a little
 
 [LB Blog](https://lbarqueira.github.io/)
 
+### Add a new social media link
+
+- Follow [How to add a new social media link to Minima 2.5.1 and latest unreleased version (3.0.0)](https://blog.jakelee.co.uk/adding-new-social-media-link-to-minima/)
+
+- And see the [Minima v3](https://github.com/jekyll/minima) for adoption code.
+
 
 ### VERY IMPORTANT !!!
 
