@@ -8,12 +8,12 @@ excerpt_separator: <!--more-->
 ---
 
 ![Introduction to Management in Portuguese Language](/assets/images/ist-management-site.png){:height="100%" width="100%"}
+<!--more-->
 
 In 2022, I created a [website](https://tourmaline-klepon-15f45d.netlify.app/) (written in 🇵🇹Portuguese) whose purpose is to present an elementary introduction to management, more specifically, on the following topics:
 - Financial Information;
 - Financial Calculus;
 - Investment Projects.
-<!--more-->
 
 The information documented [here](https://tourmaline-klepon-15f45d.netlify.app/) is based on the syllabus of several introductory management courses held at Portuguese universities, namely at [Instituto Superior Técnico](https://tecnico.ulisboa.pt/en/) - the largest school of Architecture, Engineering, Science and Technology in Portugal, involving a community of over 10,000 people.
 
