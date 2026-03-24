@@ -127,3 +127,33 @@ One command example in terminal:
 [barqueira@fedora myblog]$ jekyll doctor
 ```
 Your test results are in. Everything looks fine.
+
+
+# In March 2026 I posted again
+
+One command example in terminal:
+
+
+```
+[barqueira@fedora myblog]$ jekyll doctor
+```
+
+```
+[DEPRECATED] Platform :mingw, :x64_mingw, :mswin will be removed in the future. Please use platform :windows instead.
+Configuration file: /home/barqueira/luis_barqueira/myblog/_config.yml
+       Jekyll Feed: Generating feed for posts
+  Your test results are in. Everything looks fine.
+```
+
+So I have edited the file __Gemfile__ (I do not know if it is correct):  
+```
+# [DEPRECATED] Platform :mingw, :x64_mingw, :mswin will be removed in the future. Please use platform :windows instead.
+# platforms :mingw, :x64_mingw, :mswin, :jruby do
+#   gem "tzinfo", ">= 1", "< 3"
+#   gem "tzinfo-data"
+# end
+platforms :windows, :jruby do
+  gem "tzinfo", ">= 1", "< 3"
+  gem "tzinfo-data"
+end
+```
