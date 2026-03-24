@@ -2,7 +2,7 @@
 layout: post
 title:  "S&P 500 (^GSPC) - Financial Analysis"
 tags: Financial ETF Stocks
-date:   2026-03-24 09:00:00 +0000
+date:   2026-03-24 00:00:00 +0000
 permalink: /:year/:month/:day/:title.html
 excerpt_separator: <!--more-->
 ---
