@@ -40,6 +40,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Included to accept future dates in posts, so that they can be scheduled for publication.
+future: true
+
 # Front matter defaults
 defaults:
   -
