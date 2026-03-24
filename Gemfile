@@ -21,7 +21,12 @@ end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
-platforms :mingw, :x64_mingw, :mswin, :jruby do
+# [DEPRECATED] Platform :mingw, :x64_mingw, :mswin will be removed in the future. Please use platform :windows instead.
+# platforms :mingw, :x64_mingw, :mswin, :jruby do
+#   gem "tzinfo", ">= 1", "< 3"
+#   gem "tzinfo-data"
+# end
+platforms :windows, :jruby do
   gem "tzinfo", ">= 1", "< 3"
   gem "tzinfo-data"
 end
