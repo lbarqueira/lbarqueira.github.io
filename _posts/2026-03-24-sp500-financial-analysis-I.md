@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "S&P 500 (^GSPC) - Financial Analysis I"
+title:  "S&P 500 (^GSPC) - Financial Analysis - I"
 tags: Financial ETF Stocks
 date:   2026-03-24 00:00:00 +0000
 permalink: /:year/:month/:day/:title.html
 excerpt_separator: <!--more-->
 ---
 
-![S&P 500 (^GSPC) - Financial Analysis](/assets/images/bollinger_bands_sp500.png){:height="100%" width="100%"}
+![S&P 500 (^GSPC) - Financial Analysis](/assets/images/sma_bollinger_sp500.png){:height="100%" width="100%"}
 
 S&P 500 index (^GSPC) along with moving averages and Bollinger Bands, which are commonly used to understand trend and volatility.
 
@@ -15,93 +15,16 @@ S&P 500 index (^GSPC) along with moving averages and Bollinger Bands, which are 
 
 Financial Information about S&P 500 (Standard and Poor's 500).
 
-## 📈 1. Price (Blue Line)
+### Price & Moving Averages with Bollinger Bands
 
--   This is the **daily closing price** of the S&P 500.
--   You can see:
-    -   A **sharp dip early on** (around April)
-    -   A **steady uptrend** through mid-to-late year
-    -   A **flattening / slight pullback** near the end
+This is your **trend and volatility** chart.
 
-👉 Think of this as the “ground truth” of the market.
-
-----------
-
-## 📊 2. Moving Averages
-
-### 🟠 SMA (20) — Short-term trend
-
--   Reacts **quickly** to price changes
--   Tracks recent momentum
-
-### 🟢 SMA (50) — Medium-term trend
-
--   Smoother, slower
--   Shows the broader trend direction
-
-### How to read them:
-
--   When **price > SMA(20) > SMA(50)** → bullish trend (seen for most of the chart)
--   When price dips below SMA(20) → short-term weakness
--   Near the end, price starts **falling toward/below SMA(20)** → possible slowdown
-
-----------
-
-## 📉 3. Bollinger Bands (Volatility)
-
--   **Red dashed** = Upper band
--   **Purple dashed** = Lower band
--   Based on SMA(20) ± standard deviation
-
-### What they mean:
-
--   Bands **expand** → high volatility
--   Bands **contract** → low volatility
--   Price near:
-    -   **Upper band** → possibly overbought
-    -   **Lower band** → possibly oversold
-
-----------
-
-## 🔍 What’s happening in THIS chart
-
-### Early period (April–May)
-
--   Big drop → price touches **lower band**
--   Bands widen → **high volatility / panic selling**
-
-### Mid period (June–November)
-
--   Strong **uptrend**
--   Price mostly stays between SMA(20) and upper band
--   Bands moderately wide → steady bullish momentum
-
-### Late period (Dec–Feb)
-
--   Price often touches **upper band**
--   Suggests **overbought conditions**, but trend still strong
-
-### Final section (Feb–March)
-
--   Price **pulls back sharply**
--   Moves toward lower band
--   Bands widen again → volatility increasing
-
-----------
-
-## 🧠 Key Insights
-
--   ✅ **Overall trend**: Bullish for most of the period
--   ⚠️ **Recent signal**: Weakness / correction starting
--   🔥 **Volatility spikes**: At major turning points (early drop + recent pullback)
--   📉 **Upper band touches** earlier → market was stretched
-
-----------
-
-## ⚡ Simple interpretation (trader mindset)
-
--   When price **rides the upper band** → strong trend, not necessarily a sell
--   When price **breaks below SMA(20)** → early warning
--   When price **approaches lower band after a rally** → correction or trend shift
+- **SMA (20 & 50):** These smooth out price action. When the shorter SMA (20) is above the longer SMA (50), it generally indicates a bullish trend. Notice how the price often uses these lines as "support" during an uptrend.
+    
+- **Bollinger Bands:** These measure volatility.
+    
+    - **The "Squeeze":** When the red and purple dashed lines get close together, volatility is low, often preceding a big move.
+        
+    - **Overextension:** When the blue price line touches or breaks the Upper Band, the asset is considered "stretched" or overbought in the short term. Conversely, touching the Lower Band suggests it might be oversold.
 
 
