@@ -9,11 +9,13 @@ excerpt_separator: <!--more-->
 
 ![S&P 500 (^GSPC) - Financial Analysis](/assets/images/sma_bollinger_volume_sp500.png){:height="100%" width="100%"}
 
-## The "Complete Picture": Price Action + Market Conviction
+### The "Complete Picture": Price Action + Market Conviction
+
+<!--more-->
 
 While our previous analysis [S&P 500 (^GSPC) - Financial Analysis - I)](https://lbarqueira.github.io/2026/03/24/sp500-financial-analysis-I.html)  focused on trend and volatility, this new dual-panel chart introduces **Volume**—the lifeblood of the market. By aligning price and volume, we can now see the "Institutional Footprint" behind every move.
 
-<!--more-->
+
 
 ### 1. Price, Trends, and Volatility (Top Panel)
 
