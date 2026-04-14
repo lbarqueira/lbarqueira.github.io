@@ -5,7 +5,7 @@ tags: Financial ETF Stocks Python
 date: 2026-04-11 19:31:00 +0000
 permalink: /:year/:month/:day/:title.html
 excerpt_separator: <!--more-->
-description: "Technical Report: S&P 500 (^GSPC) - April 11, 2026"
+description: "Technical Report: S&P 500 (^GSPC) - April 11, 2026. Following the Technical Analysis Framework introduced previously, this post provides the detailed results for the S&P 500 (^GSPC) over a 365-day analysis window."
 ---
 
 ![Technical analysis reports](/assets/images/GSPC_365d_06_candlestick.png){:height="100%" width="100%"}
