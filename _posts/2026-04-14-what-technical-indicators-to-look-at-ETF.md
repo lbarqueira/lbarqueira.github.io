@@ -137,7 +137,7 @@ The model is one input. Not the only input. Not the most important input in a be
 
 The complete technical report — including all 32 feature importance charts, the full summary table with accuracy and F1 scores for all five ETFs across all three horizons, and the detailed methodology — is available as a PDF:
 
-👉 **[Download the full technical report (PDF) - April 14, 2026](/assets/reports/ETF_ML_Technical_Analysis_Report_2026-04-14.pdf)**
+👉 **[Download the full technical report (PDF) - April 14, 2026](/assets/pdfs/ETF_ML_Technical_Analysis_Report_2026-04-14.pdf)**
 
 ---
 
