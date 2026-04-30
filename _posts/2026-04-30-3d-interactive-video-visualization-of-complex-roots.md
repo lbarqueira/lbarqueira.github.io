@@ -23,7 +23,7 @@ Below is a 3D interactive visualization of complex roots of High-Degree Polynomi
   <iframe 
     id="viz-iframe"
     src="" 
-    data-src="{{ '/assets/visualizations/new_polynomial_interactive_jekyll.html' | relative_url }}" 
+    data-src="{{ '/assets/visualizations/new_polynomial_interactive_jekyll_fixed.html' | relative_url }}" 
     width="100%" 
     height="100%" 
     frameborder="0" 
@@ -47,6 +47,6 @@ function loadViz() {
 }
 </script>
 
-[Open Full Screen (Recommended for Mobile)]({{ '/assets/visualizations/new_polynomial_interactive_jekyll.html' | relative_url }})
+[Open Full Screen (Recommended for Mobile)]({{ '/assets/visualizations/new_polynomial_interactive_jekyll_fixed.html' | relative_url }})
 
 *Generated with Python · [@lbarqueira.bsky.social](https://bsky.app/profile/lbarqueira.bsky.social)*
