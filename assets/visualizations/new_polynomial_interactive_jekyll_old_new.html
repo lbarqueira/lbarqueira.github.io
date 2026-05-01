@@ -525,65 +525,6 @@
             var plotDiv =
               document.getElementsByClassName("plotly-graph-div")[0];
             plotDiv.style.cursor = "none";
-
-            // --- Manual pinch-to-zoom for mobile (especially inside iframes) ---
-            // Plotly 3D scene stores camera in layout.scene.camera.eye (x,y,z).
-            // Zooming = scaling the eye vector length: longer = zoomed out, shorter = zoomed in.
-            var lastPinchDist = null;
-
-            function getTouchDist(touches) {
-              var dx = touches[0].clientX - touches[1].clientX;
-              var dy = touches[0].clientY - touches[1].clientY;
-              return Math.sqrt(dx * dx + dy * dy);
-            }
-
-            function getCurrentEye() {
-              try {
-                var layout = plotDiv._fullLayout;
-                var eye = layout.scene._scene.getCamera().eye;
-                return { x: eye.x, y: eye.y, z: eye.z };
-              } catch (e) {
-                // fallback to Plotly default eye
-                return { x: 1.25, y: 1.25, z: 1.25 };
-              }
-            }
-
-            plotDiv.addEventListener("touchstart", function (e) {
-              if (e.touches.length === 2) {
-                lastPinchDist = getTouchDist(e.touches);
-                e.preventDefault();
-              }
-            }, { passive: false });
-
-            plotDiv.addEventListener("touchmove", function (e) {
-              if (e.touches.length === 2 && lastPinchDist !== null) {
-                e.preventDefault();
-                var newDist = getTouchDist(e.touches);
-                var scale = lastPinchDist / newDist; // >1 zoom out, <1 zoom in
-                lastPinchDist = newDist;
-
-                var eye = getCurrentEye();
-                // Clamp scale to avoid runaway zoom
-                scale = Math.max(0.9, Math.min(scale, 1.1));
-                var newEye = {
-                  x: eye.x * scale,
-                  y: eye.y * scale,
-                  z: eye.z * scale
-                };
-                // Clamp eye distance to sensible range
-                var len = Math.sqrt(newEye.x*newEye.x + newEye.y*newEye.y + newEye.z*newEye.z);
-                if (len > 0.3 && len < 10) {
-                  Plotly.relayout(plotDiv, { "scene.camera.eye": newEye });
-                }
-              }
-            }, { passive: false });
-
-            plotDiv.addEventListener("touchend", function (e) {
-              if (e.touches.length < 2) {
-                lastPinchDist = null;
-              }
-            }, { passive: false });
-            // --- End pinch-to-zoom ---
           });
         }
       </script>
