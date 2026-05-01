@@ -1,15 +1,9 @@
 <html>
   <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    /* Ensure the body and all containers take up the full height of the iframe */
-    html, body { margin: 0; padding: 0; height: 100%; width: 100%; overflow: hidden; }
-    #viz-wrapper { height: 100%; width: 100%; touch-action: none; /* This tells the phone: "Let the JavaScript handle touches" */}
-  </style>
-</head>
+    <meta charset="utf-8" />
+  </head>
   <body>
-    <div id="viz-wrapper">
+    <div>
       <script>
         window.PlotlyConfig = { MathJaxConfig: "local" };
       </script>
@@ -498,7 +492,7 @@
                 text: "10x\u00b3\u2078 - 10x\u00b3\u2077 + (200t\u2081\u00b2 - 100)x\u00b2\u00b3 + P(t\u2082) = 0\u003cbr\u003eP(t\u2082) = 204800t\u2082\u00b9\u00b2 - 614400t\u2082\u00b9\u2070 + 691200t\u2082\u2078 - 358400t\u2082\u2076 + 84000t\u2082\u2074 - 7200t\u2082\u00b2 + 100\u003cbr\u003et\u2081, t\u2082 \u2208 \u2102, |t\u2081|=|t\u2082|=1",
                 x: 0.5,
               },
-              hovermode: "closest",
+              hovermode: false,
               annotations: [
                 {
                   font: { color: "white", size: 12 },
@@ -512,7 +506,7 @@
                 },
               ],
             },
-            { responsive: true, scrollZoom: true },
+            { responsive: true },
           ).then(function () {
             var plotDiv =
               document.getElementsByClassName("plotly-graph-div")[0];
