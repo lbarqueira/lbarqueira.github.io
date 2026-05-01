@@ -12,7 +12,7 @@ Below is a 3D interactive visualization of complex roots of High-Degree Polynomi
 
 <!--more-->
 
-<div id="viz-container" style="width: 100%; height: 600px; background: #111; display: flex; align-items: center; justify-content: center; border: 1px solid #333; position: relative;">
+<div id="viz-container" style="width: 100%; height: 600px; background: #111; display: flex; align-items: center; justify-content: center; border: 1px solid #333; position: relative; touch-action: none;">
   
   <img id="viz-preview" src="/assets/images/new_polynomial_new_3d_formula_6_final.png" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.6;">
 
