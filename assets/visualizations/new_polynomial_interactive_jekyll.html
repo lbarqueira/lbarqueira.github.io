@@ -5,7 +5,7 @@
   <style>
     /* Ensure the body and all containers take up the full height of the iframe */
     html, body { margin: 0; padding: 0; height: 100%; width: 100%; overflow: hidden; }
-    #viz-wrapper { height: 100%; width: 100%; manipulation; /* Allows pinch-zoom and panning */ }
+    #viz-wrapper { height: 100%; width: 100%; touch-action: none; /* This tells the phone: "Let the JavaScript handle touches" */}
   </style>
 </head>
   <body>
