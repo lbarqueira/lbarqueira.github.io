@@ -27,7 +27,7 @@ Below is a 3D interactive visualization of complex roots of High-Degree Polynomi
     width="100%" 
     height="100%" 
     frameborder="0" 
-    style="display: none;">
+    style="display: none; touch-action: manipulation; pointer-events: auto;">
   </iframe>
 </div>
 
