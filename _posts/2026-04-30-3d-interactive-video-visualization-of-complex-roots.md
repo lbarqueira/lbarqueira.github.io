@@ -17,7 +17,7 @@ Below is a 3D interactive visualization of complex roots of High-Degree Polynomi
   width="100%" 
   height="600px" 
   frameborder="0" 
-  style="border: 1px solid #eee;">
+  style="border: 1px solid #eee; touch-action: none;">
 </iframe>
 
 [Full Screen View]({{ '/assets/visualizations/new_polynomial_interactive_jekyll.html' | relative_url }})
