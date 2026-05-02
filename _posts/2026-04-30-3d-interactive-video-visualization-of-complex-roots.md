@@ -4,7 +4,7 @@ title: "Interactive 3D visualization of Complex Roots of High-Degree Polynomials
 date: 2026-04-30 22:29:00 +0000
 permalink: /:year/:month/:day/:title.html
 excerpt_separator: <!--more-->
-description: "Interactive 3D visualization showing the behavior of complex roots. You can rotate (and eventualy zoom into ...) the graph directly."
+description: "Interactive 3D visualization showing the behavior of complex roots. You can rotate and zoom into the graph directly."
 tags: Math Python Polynomials Creative-Coding 3D
 ---
 
